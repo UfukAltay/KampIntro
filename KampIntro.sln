@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a-KampIntro", "a-KampIntro\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-Donguler", "b-Donguler\b-Donguler.csproj", "{073D6139-BF3C-4933-B124-8DB4DA3E1982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-ClassIntro", "c-ClassIntro\c-ClassIntro.csproj", "{E90F02F2-7EBB-49DC-8CE7-16EF9D921810}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90F02F2-7EBB-49DC-8CE7-16EF9D921810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90F02F2-7EBB-49DC-8CE7-16EF9D921810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90F02F2-7EBB-49DC-8CE7-16EF9D921810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90F02F2-7EBB-49DC-8CE7-16EF9D921810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
