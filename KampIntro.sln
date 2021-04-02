@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a-KampIntro", "a-KampIntro\a-KampIntro.csproj", "{2147A9B5-F29A-40C8-9927-250D70871AEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-Donguler", "b-Donguler\b-Donguler.csproj", "{073D6139-BF3C-4933-B124-8DB4DA3E1982}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2147A9B5-F29A-40C8-9927-250D70871AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2147A9B5-F29A-40C8-9927-250D70871AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2147A9B5-F29A-40C8-9927-250D70871AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073D6139-BF3C-4933-B124-8DB4DA3E1982}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
