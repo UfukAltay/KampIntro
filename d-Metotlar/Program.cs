@@ -31,9 +31,30 @@ namespace d_Metotlar
                 Console.WriteLine(urun.Fiyati);
                 Console.WriteLine(urun.Aciklama);
                 Console.WriteLine("-----------------");
-            }            
-            
+            }
+
+            Console.WriteLine("-----------Metotlar------------");
+
+            // instance - örnek
+            // Encapsulation (Aşağıdaki 2 örnekte, YAZIM SEKLİ 1 encapsulationdur ve yazılım dünyasında olması gereken yazım şeklidir.)
+            SepetManager sepetManager = new SepetManager();
+
+            //YAZIM ŞEKLİ 1
+            // Sayfa1
+            sepetManager.Ekle(urun1); // Metotlar bu şekilde çağırılır.
+            // Sayfa2
+            sepetManager.Ekle(urun2);
+
+            //YAZIM ŞEKLİ 2
+            // Sayfa1
+            sepetManager.Ekle2("Armut", "Yeşil armut", 12, 10);
+            // Sayfa2
+            sepetManager.Ekle2("Elma", "Yeşil elma", 12, 9);
+            // Sayfa3
+            sepetManager.Ekle2("Karpuz", "Diyarbakır karpuzu", 80, 8);
+
         }
+    }
     }
 }
 
