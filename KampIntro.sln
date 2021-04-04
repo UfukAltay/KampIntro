@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "b-Donguler", "b-Donguler\b-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c-ClassIntro", "c-ClassIntro\c-ClassIntro.csproj", "{E90F02F2-7EBB-49DC-8CE7-16EF9D921810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d-Metotlar", "d-Metotlar\d-Metotlar.csproj", "{F0CB3A37-B359-4358-B1EB-A1C682887C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "d-Metotlar", "d-Metotlar\d-Metotlar.csproj", "{F0CB3A37-B359-4358-B1EB-A1C682887C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d1-Matematik", "d1-Matematik\d1-Matematik.csproj", "{36A3E441-66F8-450D-8FAB-79C94225B301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "d1-Matematik", "d1-Matematik\d1-Matematik.csproj", "{36A3E441-66F8-450D-8FAB-79C94225B301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-DegerVeReferansTipler", "e-DegerVeReferansTipler\e-DegerVeReferansTipler.csproj", "{2FE61B96-5412-4CC7-9AD3-26B5D9817A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "e-DegerVeReferansTipler", "e-DegerVeReferansTipler\e-DegerVeReferansTipler.csproj", "{2FE61B96-5412-4CC7-9AD3-26B5D9817A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e1-ClassMetotDemo", "e1-ClassMetotDemo\e1-ClassMetotDemo.csproj", "{C09B4C76-2982-485B-B0D0-8DBFF38D53D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2FE61B96-5412-4CC7-9AD3-26B5D9817A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE61B96-5412-4CC7-9AD3-26B5D9817A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE61B96-5412-4CC7-9AD3-26B5D9817A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09B4C76-2982-485B-B0D0-8DBFF38D53D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09B4C76-2982-485B-B0D0-8DBFF38D53D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09B4C76-2982-485B-B0D0-8DBFF38D53D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09B4C76-2982-485B-B0D0-8DBFF38D53D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
