@@ -21,7 +21,7 @@ namespace j_OOP2
             musteri2.VergiNo = "123456789";
 
             // Gerçek Müşteri - Tüzel Müşteri
-            // SO L ID  -> 
+            // SO L ID  -> Liskov Substitution Principle
 
             // Musteri class ı burada hem gerçek hem de tüzel müşteri classlarının referenlarını tutabiliyor ve aşağıdaki manager classında ekle metodunu çalıştırdığımız zaman musteri1 i ya da musteri2 yi rahatlıkla ekleyebiliyoruz.
             Musteri musteri3 = new GercekMusteri();

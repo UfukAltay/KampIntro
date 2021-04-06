@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "i-Constructors", "i-Constru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "j-OOP2", "j-OOP2\j-OOP2.csproj", "{DE95C6B9-EEB1-4510-906A-3201641C123B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k-OOP3", "k-OOP3\k-OOP3.csproj", "{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DE95C6B9-EEB1-4510-906A-3201641C123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE95C6B9-EEB1-4510-906A-3201641C123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE95C6B9-EEB1-4510-906A-3201641C123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
