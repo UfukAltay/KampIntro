@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "h-GenericsIntro", "h-Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "i-Constructors", "i-Constructors\i-Constructors.csproj", "{BC0AD99B-3F28-4C4B-AAAF-DE4B076F1A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "j-OOP2", "j-OOP2\j-OOP2.csproj", "{DE95C6B9-EEB1-4510-906A-3201641C123B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "j-OOP2", "j-OOP2\j-OOP2.csproj", "{DE95C6B9-EEB1-4510-906A-3201641C123B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k-OOP3", "k-OOP3\k-OOP3.csproj", "{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "k-OOP3", "k-OOP3\k-OOP3.csproj", "{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k1-RecapDemo1", "k1-RecapDemo1\k1-RecapDemo1.csproj", "{205FBCF7-F4F3-4C3C-99F8-364352B9184F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021F6A9B-F4E1-4ADC-AF8A-A154A723701B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205FBCF7-F4F3-4C3C-99F8-364352B9184F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205FBCF7-F4F3-4C3C-99F8-364352B9184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205FBCF7-F4F3-4C3C-99F8-364352B9184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205FBCF7-F4F3-4C3C-99F8-364352B9184F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
