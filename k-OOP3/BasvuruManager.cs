@@ -6,8 +6,8 @@ namespace k_OOP3
 {
     class BasvuruManager
     {
-        // Method Injection
-        public void BasvuruYap(IKrediManager krediManager, List<ILoggerService> loggerServices) // IKrediManager diğer tüm kredilerine referansını tuttuğu için onu buraya parametre olarak vererek aslında tüm krediler için başvurma imkanımız doğmuş olur.
+        // Method Injection - Aşağıda bu işlemi yapıyoruz.
+        public void BasvuruYap(List<IKrediManager> krediManagers, List<ILoggerService> loggerServices) // IKrediManager diğer tüm kredilerine referansını tuttuğu için onu buraya parametre olarak vererek aslında tüm krediler için başvurma imkanımız doğmuş olur.
         {
             // Başvuran bilgilerini değerlendirme
 
@@ -16,7 +16,11 @@ namespace k_OOP3
             //KonutKrediManager konutKrediManager = new KonutKrediManager();
             //konutKrediManager.Hesapla();
 
-            krediManager.Hesapla(); //İster konut, ister taşıt, ister ihtiyaç kredisi gönder
+            foreach (var krediManager in krediManagers)
+            {
+                krediManager.Hesapla(); //İster konut, ister taşıt, ister ihtiyaç kredisi gönder
+            }
+            //krediManager.Hesapla();   List<> yapmaz isek bu satırı kullanabiliriz.
             
             foreach (var loggerService in loggerServices)
             {
