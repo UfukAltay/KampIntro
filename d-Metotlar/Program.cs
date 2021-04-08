@@ -55,7 +55,6 @@ namespace d_Metotlar
 
         }
     }
-    }
 }
 
 // Don't repeat yourself = Kendini tekrar etme - DRY
