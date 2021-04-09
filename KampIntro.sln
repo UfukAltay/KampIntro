@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "k-OOP3", "k-OOP3\k-OOP3.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "k1-RecapDemo1", "k1-RecapDemo1\k1-RecapDemo1.csproj", "{205FBCF7-F4F3-4C3C-99F8-364352B9184F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "l-AbstractClasses", "l-AbstractClasses\l-AbstractClasses.csproj", "{B832D08E-30A9-481E-8361-E4636F233298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "l-AbstractClasses", "l-AbstractClasses\l-AbstractClasses.csproj", "{B832D08E-30A9-481E-8361-E4636F233298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m-GameCenterProject", "m-GameCenterProject\m-GameCenterProject.csproj", "{1CE4E3A5-FE34-429C-A08A-5A49F7311452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{B832D08E-30A9-481E-8361-E4636F233298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B832D08E-30A9-481E-8361-E4636F233298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B832D08E-30A9-481E-8361-E4636F233298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE4E3A5-FE34-429C-A08A-5A49F7311452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE4E3A5-FE34-429C-A08A-5A49F7311452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE4E3A5-FE34-429C-A08A-5A49F7311452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE4E3A5-FE34-429C-A08A-5A49F7311452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
