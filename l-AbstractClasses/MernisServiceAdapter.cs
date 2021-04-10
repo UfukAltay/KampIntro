@@ -10,21 +10,6 @@ namespace l_AbstractClasses
     {
         public bool CheckIfRealPerson(Customer customer)
         {
-            //KPSPublicSoapClient client = new KPSPublicSoapClient();
-
-            //return client.TCKimlikNoDogrulaAsync(Convert.ToInt64(customer.NationalityId), customer.FirstName.ToUpper(), customer.LastName.ToUpper(), customer.DateOfBirth.Year);
-
-
-
-            //KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap12);
-            //Task response = client.TCKimlikNoDogrulaAsync(Convert.ToInt64(customer.NationalityId),
-            //                                              customer.FirstName.ToUpper(),
-            //                                              customer.LastName.ToUpper(),
-            //                                              customer.DateOfBirth.Year);
-            //response.Wait();
-            //return response.Result.Body.TCKimlikNoDogrulaResult;
-
-
             KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap12);
             return client.TCKimlikNoDogrulaAsync(
                 Convert.ToInt64(customer.NationalityId),
