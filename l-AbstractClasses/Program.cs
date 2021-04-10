@@ -16,8 +16,8 @@ namespace l_AbstractClasses
 
         static void Main(string[] args)
         {
-            BaseCustomerManager customerManager = new StarbucksCustomerManager(new CustomerCheckManager());
-            customerManager.Save(new Customer { DateOfBirth = new DateTime(1985), FirstName = "Ufuk", LastName = "ALTAY", NationalityId = "54331490504" });
+            BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+            customerManager.Save(new Customer { DateOfBirth = 1985/*new DateTime(1985)*/, FirstName = "UFUK", LastName = "ALTAY", NationalityId = "54331490504" });
             Console.ReadLine();
         }
     }
