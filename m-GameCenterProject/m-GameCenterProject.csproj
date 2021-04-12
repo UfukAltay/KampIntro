@@ -6,9 +6,4 @@
     <RootNamespace>m_GameCenterProject</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Abstracts\" />
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
 </Project>
