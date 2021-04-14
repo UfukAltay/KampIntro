@@ -6,7 +6,7 @@ namespace m_GameCenterProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
