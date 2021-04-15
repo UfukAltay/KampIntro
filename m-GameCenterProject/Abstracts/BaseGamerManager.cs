@@ -1,24 +1,25 @@
-﻿using System;
+﻿using m_GameCenterProject.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace m_GameCenterProject.Abstracts
 {
-    public abstract class BaseGamerManager
+    public abstract class BaseGamerManager : IGamerService
     {
-        public virtual void Add(Entities.Gamer gamer)
+        public virtual void Add(Gamer gamer)
         {
-            Console.WriteLine("Oyuncu eklendi");
+            Console.WriteLine(gamer.FirstName +  " adlı oyuncu eklendi");
         }
 
-        public void Delete()
+        public virtual void Delete(Gamer gamer)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(gamer.FirstName + " adlı oyuncu silindi");
         }
 
-        public void Update()
+        public virtual void Update(Gamer gamer)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(gamer.FirstName + " adlı oyuncu güncellendi");
         }
     }
 }

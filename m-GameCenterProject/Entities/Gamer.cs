@@ -10,6 +10,6 @@ namespace m_GameCenterProject.Entities
         public long NationalityId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }
