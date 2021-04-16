@@ -11,7 +11,7 @@ namespace m_GameCenterProject
         static void Main(string[] args)
         {
             BaseGamerManager gamerManager = new GamerManager( new MernisServiceAdapter());
-            gamerManager.Add(new Gamer { DateOfBirth = new DateTime(1985, 3, 21), FirstName = "Ufuk", LastName = "Altay", NationalityId = 54331490504,});
+            gamerManager.Add(new Gamer { DateOfBirth = new DateTime(1985, 3, 21), FirstName = "Ufuk", LastName = "Altay", NationalityId = 54331490504});
             Console.ReadLine();
         }
     }
