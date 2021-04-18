@@ -19,11 +19,13 @@ namespace m_GameCenterProject
                 FirstName = "Ufuk",
                 LastName = "ALTAY",
                 DateOfBirth = new DateTime(1985, 3, 21),
-                NationalityId = 54331490505,
+                NationalityId = 54331490504,
                 Id = 1
             };
 
             gamerManager.Add(gamer1);
+            gamerManager.Update(gamer1);
+            gamerManager.Delete(gamer1);
             
             Console.ReadLine();
         }
