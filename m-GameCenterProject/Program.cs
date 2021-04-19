@@ -3,7 +3,6 @@ using m_GameCenterProject.Adapters;
 using m_GameCenterProject.Concrete;
 using m_GameCenterProject.Entities;
 using System;
-using System.Collections.Generic;
 
 namespace m_GameCenterProject
 {
@@ -23,36 +22,45 @@ namespace m_GameCenterProject
             };
             gamerManager.Add(gamer1);
 
-
             //OyuncuEkle(gamerManager);
 
+            //Console.WriteLine("**************************************");
+            //Console.WriteLine("Nasıl devam etmek istersiniz ?");
+            //Console.WriteLine("Oyuncu eklemek için (1)");
+            //Console.WriteLine("Oyuncu güncelleme için (2)");
+            //Console.WriteLine("Oyuncu silme için (3)");
+
+            //int tercih = Convert.ToInt32(Console.ReadLine());
+
+            //switch (tercih)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Oyuncu Ekleme seçildi");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Oyuncu Güncelleme seçildi");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Oyuncu Silme seçildi");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Yanlış seçim yaptınız");
+            //        break;
+            //}
+
+            gamerManager.Update(gamer1);
+            gamerManager.Delete(gamer1);
             Console.WriteLine("**************************************");
-            Console.WriteLine("Nasıl devam etmek istersiniz ?");
-            Console.WriteLine("Oyuncu eklemek için (1)");
-            Console.WriteLine("Oyuncu güncelleme için (2)");
-            Console.WriteLine("Oyuncu silme için (3)");
-
-            int tercih = Convert.ToInt32(Console.ReadLine());
-
-            switch (tercih)
-            {
-                case 1:
-                    Console.WriteLine("Oyuncu Ekleme seçildi");
-                    break;
-                case 2:
-                    Console.WriteLine("Oyuncu Güncelleme seçildi");
-                    break;
-                case 3:
-                    Console.WriteLine("Oyuncu Silme seçildi");
-                    break;
-                default:
-                    Console.WriteLine("Yanlış seçim yaptınız");
-                    break;
-            }
 
 
-            //gamerManager.Update(gamer1);
-            //gamerManager.Delete(gamer1);
+            GameManager gameManager = new GameManager();
+            Game game1 = new Game() { GameId = 1, GameName = "Mario", GamePrice = 100 };
+            Game game2 = new Game() { GameId = 2, GameName = "Snake", GamePrice = 50 };
+            Game game3 = new Game() { GameId = 3, GameName = "Space Impact", GamePrice = 30 };
+
+            gameManager.Add(game1);
+            gameManager.Add(game2);
+            gameManager.Add(game3);
 
             Console.ReadLine();
         }
