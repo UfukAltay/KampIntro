@@ -11,7 +11,7 @@ namespace m_GameCenterProject
     {
         static void Main(string[] args)
         {
-            BaseGamerManager gamerManager = new GamerManager (new MernisServiceAdapter());
+            BaseGamerManager gamerManager = new GamerManager(new MernisServiceAdapter());
 
             Gamer gamer1 = new Gamer()
             {
@@ -37,13 +37,13 @@ namespace m_GameCenterProject
             switch (tercih)
             {
                 case 1:
-                    OyuncuEkle(gamerManager);
+                    Console.WriteLine("Oyuncu Ekleme seçildi");
                     break;
                 case 2:
-                    Console.WriteLine("Güncelleme seçildi");
+                    Console.WriteLine("Oyuncu Güncelleme seçildi");
                     break;
                 case 3:
-                    Console.WriteLine("Silme seçildi");
+                    Console.WriteLine("Oyuncu Silme seçildi");
                     break;
                 default:
                     Console.WriteLine("Yanlış seçim yaptınız");

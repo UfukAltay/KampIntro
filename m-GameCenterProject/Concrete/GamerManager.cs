@@ -10,6 +10,10 @@ namespace m_GameCenterProject.Concrete
     {
         private IGamerCheckService _gamerCheckService;
 
+        public GamerManager()
+        {
+        }
+
         public GamerManager(IGamerCheckService gamerCheckService)
         {
             _gamerCheckService = gamerCheckService;
