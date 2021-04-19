@@ -9,7 +9,13 @@ namespace m_GameCenterProject.Abstracts
     {
         public virtual void Add(Gamer gamer)
         {
-            Console.WriteLine(gamer.FirstName +  " adlı oyuncu eklendi");
+            Console.WriteLine(gamer.FirstName + " adlı oyuncu eklendi");
+            Console.WriteLine("**************************************");
+            Console.WriteLine("Adı soyadı : " + gamer.FirstName + " " + gamer.LastName);
+            Console.WriteLine("Doğum yılı : " + gamer.DateOfBirth);
+            Console.WriteLine("T.C. Kimlik No : " + gamer.NationalityId);
+            Console.WriteLine("Oyuncu Id : " + gamer.Id);
+            Console.WriteLine("**************************************");
         }
 
         public virtual void Delete(Gamer gamer)

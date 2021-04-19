@@ -16,7 +16,7 @@ namespace m_GameCenterProject.Adapters
                 Convert.ToInt64(gamer.NationalityId),
                 gamer.FirstName.ToUpper(),
                 gamer.LastName.ToUpper(),
-                gamer.DateOfBirth.Year).Result.Body.TCKimlikNoDogrulaResult;
+                gamer.DateOfBirth).Result.Body.TCKimlikNoDogrulaResult;
         }
     }
 }
