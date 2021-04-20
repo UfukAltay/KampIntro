@@ -61,6 +61,19 @@ namespace m_GameCenterProject
             gameManager.Add(game1);
             gameManager.Add(game2);
             gameManager.Add(game3);
+            gameManager.Delete(game2);
+            gameManager.Update(game3);
+
+
+            CampaignManager campaignManager = new CampaignManager();
+            Campaign campaign1 = new Campaign() { CampaignId=1, CampaignName="Efsane Cuma", CampaignDiscount=15 };
+            Campaign campaign2 = new Campaign() { CampaignId=2, CampaignName="Şahane Kasım", CampaignDiscount=20 };
+
+            campaignManager.Add(campaign1);
+            campaignManager.Add(campaign2);
+            campaignManager.Delete(campaign2);
+            campaignManager.Update(campaign1);
+
 
             Console.ReadLine();
         }
